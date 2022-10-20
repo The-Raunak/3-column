@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 60vw;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+}
+.box1{
+    width: 20vw;
+    background-color: hsl(31, 77%, 52%);
+}
+.box2{
+    width: 20vw;
+    background-color: hsl(184, 100%, 22%);
+}
+.box3{
+    width: 20vw;
+    background-color: hsl(179, 100%, 13%);
+}
+.img1{
+    padding: 48px 0px 0px 43px;
+}
+.img2{
+    padding: 48px 0px 0px 43px;
+}
+.img3{
+    padding: 48px 0px 0px 43px;
+}
+.H1{
+    color: hsl(0, 0%, 95%);
+    padding: 30px 0px 0px 43px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+}
+.H2{
+    color: hsl(0, 0%, 95%);
+    padding: 30px 0px 0px 43px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+}
+.H3{
+    color: hsl(0, 0%, 95%);
+    padding: 30px 0px 0px 43px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+}
+.p1{
+    padding: 25px 50px 0px 43px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: 'Lexend Deca', sans-serif;   
+}
+.p2{
+    padding: 25px 50px 0px 43px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: 'Lexend Deca', sans-serif;    
+}
+.p3{
+    padding: 25px 50px 0px 43px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.f1{
+    background-color: hsl(0, 0%, 95%);
+    width: 6vw;
+    margin: 90px 10px 0px 43px;
+    padding: 14px 25px;
+    border: 2px;
+    border-radius:90px;
+    text-align: center;
+    color:hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.f2{
+    background-color: hsl(0, 0%, 95%);
+    width: 6vw;
+    margin: 90px 10px 0px 43px;
+    padding: 14px 25px;
+    border: 2px;
+    border-radius:90px;
+    text-align: center;
+    color:hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.f3{
+    background-color: hsl(0, 0%, 95%);
+    width: 6vw;
+    margin: 90px 10px 0px 43px;
+    padding: 14px 25px;
+    border: 2px;
+    border-radius:90px;
+    text-align: center;
+    color:hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.f1:hover{
+cursor: pointer;
+background-color: hsl(31, 77%, 52%);
+border: 3px solid hsl(0, 0%, 95%);
+color: hsl(0, 0%, 95%);   
+}
+.f2:hover{
+cursor: pointer;
+background-color: hsl(184, 100%, 22%);
+border: 3px solid hsl(0, 0%, 95%);
+color: hsl(0, 0%, 95%);
+}
+.f3:hover{
+cursor: pointer;
+background-color:hsl(179, 100%, 13%);
+border: 3px solid hsl(0, 0%, 95%);
+color: hsl(0, 0%, 95%);
+}

@@ -1,0 +1,46 @@
+@media screen and (max-width: 376px){
+
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    flex-direction: column;
+     margin: 0px 98px 95px 0px;
+     padding: 0px 10px 90px 0px;
+
+}
+.box1{
+    height: 55vh;
+    width: 90vw;
+    background-color: hsl(31, 77%, 52%);
+}
+.box2{
+    height: 55vh;
+    width: 90vw;
+    background-color: hsl(184, 100%, 22%);
+}
+.box3{
+    height: 55vh;
+    width: 90vw;
+    background-color: hsl(179, 100%, 13%);
+}
+.f1{
+    width: 26vw;
+    margin: 20px 10px 40px 43px;
+    padding: 12px 20px;
+}
+.f2{
+    width: 26vw;
+    margin: 20px 10px 40px 43px;
+    padding: 12px 20px;
+}
+.f3{
+    width: 26vw;
+    margin: 20px 10px 40px 43px;
+    padding: 12px 20px;
+}
+}
+    
